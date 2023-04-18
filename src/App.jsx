@@ -15,7 +15,7 @@ function App() {
     <div className="App">
     <Navbar />
     <About name="Gabriel Torres" 
-    img="src\assets\profile-photo.jpeg"
+    img="public\images\profile-photo.jpeg"
     alt="Minha foto"
     fContent={<p>SOU BACHAREL EM SISTEMAS DE INFORMAÇÃO E <span className='text-[#1FA1D8]'>DESENVOLVEDOR FRONT-END</span>.</p>} 
 
@@ -35,6 +35,9 @@ segue aqui uma lista com tudo que aprendi.</p>}
     <Contact content={<p>ESSE ANO ESTOU À PROCURA DE UMA VAGA COMO DESENVOLVEDOR PARA APRIMORAR MINHAS <span className='text-[#800020]'>HABILIDADES</span> E contribuir para projetos desafiadores que me permitam aplicar meu <span className='text-[#800020]'>conhecimentos</span>.</p>}
     phone="(21) 96773-8931"
     email="gabrieltorresp2009@gmail.com"
+    linkedinLink="https://www.linkedin.com/in/gabriel-torres-2112b6212/"
+    gitLink="https://github.com/gtorrespcode"
+
     />
 
     </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import { GiSmartphone } from "react-icons/gi";
 import { HiOutlineMail } from "react-icons/hi";
+import { SiLinkedin, SiGithub } from "react-icons/si";
 
 
 export default function Contact(props){
@@ -17,10 +18,12 @@ export default function Contact(props){
             <div className="w-24 h-24 rounded-full bg-[#1FA1D8] lg:w-40 lg:h-40"></div>
             </div>
 
-            <div className=" text-xl text-[#33261D] text-center pt-10 lg:pt-0">
+            <div className=" text-xl text-[#33261D] text-center lg:relative lg:bottom-[10%]">
             <p className="pb-4">Contato</p>
             <p> <GiSmartphone className="inline"/>{props.phone}</p>
-            <p><HiOutlineMail className="inline pr-1"/>{props.email} </p>
+            <p className="mb-2"><HiOutlineMail className="inline pr-1"/>{props.email} </p>
+            <div className="text-center"><a href={props.linkedinLink}><SiLinkedin className="inline mr-2"/></a>
+            <a href={props.gitLink}><SiGithub className="inline"/></a></div>
             </div>
 
         

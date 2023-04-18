@@ -24,14 +24,5 @@ export default function About(props){
     )
 }
 
-/*
-                <div className="bg-[#1488FA] w-32 h-32 rounded-full relative left-48 lg:h-56 lg:w-56 lg:left-54 top-6 "></div>
-                <div className="bg-[#1488FA] w-8 h-8 rounded-full relative left-20 bottom-28 lg:w-12 lg:h-12 lg:left-6 lg:bottom-44 "></div>
-                <div className="bg-[#1488FA] w-8 h-8 rounded-full relative left-64 -bottom-4 lg:w-12 lg:h-12 lg:left-80 lg:-bottom-10"></div>
-                <img className="w-44 h-44 rounded-full relative m-auto bottom-44 lg:w-80 lg:h-80 lg:bottom-[70%]" src={props.img} alt={props.alt} />
 
-                
-                left-[24%] bottom-[50%]
-                left-[66%] -bottom-[8%]
-*/
 
