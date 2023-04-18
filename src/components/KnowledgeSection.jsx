@@ -9,24 +9,24 @@ export default function KnowledgeSection(props){
             <p className="text-xl text-white lg:text-2xl lg:w-[49rem] lg:mx-auto lg:pt-2">{props.content}</p>
             <div className="flex justify-evenly pt-10 lg:w-[32rem] lg:mx-auto">
             <div className="border-r-2">
-            <FSideKnowledge img="public\images\html-css-img.jpg"
+            <FSideKnowledge img="\images\html-css-img.jpg"
             alt="HTML e CSS"
             subject="HTML e CSS"
             />
-             <FSideKnowledge img="public\images\react-img.jpg"
+             <FSideKnowledge img="\images\react-img.jpg"
             alt="React.js"
             subject="React.js"
             />
-            <FSideKnowledge img="public\images\mongod-img.jpg"
+            <FSideKnowledge img="\images\mongod-img.jpg"
             alt="Mongodb"
             subject="Mongodb" />
             </div>
             <div>
-            <SSideKnowledge img="public\images\js-img.png"
+            <SSideKnowledge img="\images\js-img.png"
             alt="Javascript"
             subject="Javascript"
             />
-            <SSideKnowledge img="public\images\node-img.jpg"
+            <SSideKnowledge img="\images\node-img.jpg"
             alt="Node.js"
             subject="Node.js"
             />

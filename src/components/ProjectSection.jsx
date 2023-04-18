@@ -10,22 +10,22 @@ export default function ProjectSection(props){
             <div className="pt-10  text-center grid gap-x-2 gap-y-14 grid-cols-2 grid-rows-2 justify-items-center lg:pt-20 lg:grid-cols-4 lg:grid-rows-1 " >
             <Project name="Documentação"
             link="https://codepen.io/gtorrespcode/pen/oNEwqvg"
-            img="public\images\Py-doc-img.png"
+            img="\images\Py-doc-img.png"
             alt="Foto do projeto de documentação"
             />
             <Project name="Site de vendas"
             link="https://codepen.io/gtorrespcode/pen/ExQyqqP"
-            img="public\images\Store-img.png"
+            img="\images\Store-img.png"
             alt="foto do projeto site de vendas"
             />
             <Project name="Formulário"
             link="https://codepen.io/gtorrespcode/pen/PoQNQgw"
-            img="public\images\Survey-img.png"
+            img="\images\Survey-img.png"
             alt="foto do projeto formulário"
             />
             <Project name="Tributo"
             link="https://codepen.io/gtorrespcode/pen/PoQZogR"
-            img="public\images\Stanley-img.png"
+            img="\images\Stanley-img.png"
             alt="foto do projeto tributo"
             />
             </div>

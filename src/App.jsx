@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import Header from './components/NavBar';
 import About from './components/About';
-import './App.css'
 import KnowledgeSection from './components/KnowledgeSection';
 import ProjectSection from './components/ProjectSection';
 import Contact from './components/Contact';
@@ -15,7 +14,7 @@ function App() {
     <div className="App">
     <Navbar />
     <About name="Gabriel Torres" 
-    img="public\images\profile-photo.jpeg"
+    img="\images\profile-photo.jpeg"
     alt="Minha foto"
     fContent={<p>SOU BACHAREL EM SISTEMAS DE INFORMAÇÃO E <span className='text-[#1FA1D8]'>DESENVOLVEDOR FRONT-END</span>.</p>} 
 
