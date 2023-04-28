@@ -22,7 +22,7 @@ function App() {
 MIM QUE PODEM DESPERTAR SEU <span className='text-[#800020]'>INTERESSE</span>.</p>}
     
     />
-    <ProjectSection content={<p>Comecei fazer alguns projetos simples em <span className='text-[#1FA1D8]'>2021</span>, usando apenas <span className='text-[#EAA221]'>HTML</span> E <span className='text-[#EAA221]'>CSS</span>.  aqui estão alguns deles.</p>}/>
+    <ProjectSection content={<p>Comecei a fazer alguns projetos simples em <span className='text-[#1FA1D8]'>2021</span>, usando apenas <span className='text-[#EAA221]'>HTML</span> E <span className='text-[#EAA221]'>CSS</span>.  aqui estão alguns deles.</p>}/>
 
     <KnowledgeSection content={<p>Em <span className='text-[#1FA1D8]'>2022</span> comecei a procurar pelas tecnologias mais <span className='text-[#1FA1D8]'>populares</span> do mercado e estudei sobre desenvolvimento <span className='text-[#EAA221]'>back-end</span> e <span className='text-[#63D92C]'>Banco de dados</span>.
 segue aqui uma lista com tudo que aprendi.</p>}
@@ -31,7 +31,7 @@ segue aqui uma lista com tudo que aprendi.</p>}
       sline="EXPRESS.JS E PYTHON"
       tline="MYSQL"
     />
-    <Contact content={<p>ESSE ANO ESTOU À PROCURA DE UMA VAGA COMO DESENVOLVEDOR PARA APRIMORAR MINHAS <span className='text-[#800020]'>HABILIDADES</span> E contribuir para projetos desafiadores que me permitam aplicar meu <span className='text-[#800020]'>conhecimentos</span>.</p>}
+    <Contact content={<p>ESSE ANO ESTOU À PROCURA DE UMA VAGA COMO DESENVOLVEDOR PARA APRIMORAR MINHAS <span className='text-[#800020]'>HABILIDADES</span> E contribuir para projetos desafiadores que me permitam aplicar meus <span className='text-[#800020]'>conhecimentos</span>.</p>}
     phone="(21) 96773-8931"
     email="gabrieltorresp2009@gmail.com"
     linkedinLink="https://www.linkedin.com/in/gabriel-torres-2112b6212/"
